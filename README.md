@@ -1,23 +1,8 @@
 
-# Sample Go web application
+## Golang Rest-API tugas Alta
 
-This is a sample GO Lang web application built on [visual studio code](https://code.visualstudio.com/).
-| Language | Platform | Author |
-| -------- | --------|--------|
-| Go Lang |  Azure Web App| |
-
-
-## Installation
-For Development, you need Go lang setup.
-Please follow this link to get started with the setup [Go Lang Setup](https://golang.org/doc/install).
-
-## Get code to your local for development
-
-- #### Clone this repository  
-
-```bash
-    $ git clone https://github.com/YOUR_USERNAME/REPOSITORY_NAME.git
-```
+Nama : Nur Ahmadi
+Kelas : A Golang
 
 ## Deploying on Azure
 
