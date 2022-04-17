@@ -5,7 +5,6 @@ import (
 	"github.com/nrmadi02/go-devs/domain"
 	"gorm.io/driver/sqlserver"
 	"gorm.io/gorm"
-	"os"
 )
 
 var DB *gorm.DB
@@ -20,12 +19,20 @@ type Config struct {
 
 func InitDB() *gorm.DB {
 
+	//config := Config{
+	//	DB_Username: os.Getenv("DB_USERNAME"),
+	//	DB_Password: os.Getenv("DB_PASSWORD"),
+	//	DB_Port:     os.Getenv("DB_PORT"),
+	//	DB_Host:     os.Getenv("DB_HOST"),
+	//	DB_Name:     os.Getenv("DB_NAME"),
+	//}
+
 	config := Config{
-		DB_Username: os.Getenv("DB_USERNAME"),
-		DB_Password: os.Getenv("DB_PASSWORD"),
-		DB_Port:     os.Getenv("DB_PORT"),
-		DB_Host:     os.Getenv("DB_HOST"),
-		DB_Name:     os.Getenv("DB_NAME"),
+		DB_Username: "nrmadi02",
+		DB_Password: "Ulalaa2202",
+		DB_Port:     "1433",
+		DB_Host:     "nrmadi02-db.database.windows.net",
+		DB_Name:     "nrmadi02-database",
 	}
 
 	connectionString := fmt.Sprintf("sqlserver://%s:%s@%s:%s?database=%s",

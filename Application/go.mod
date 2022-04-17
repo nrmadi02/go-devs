@@ -1,6 +1,6 @@
 module github.com/nrmadi02/go-devs
 
-go 1.18
+go 1.17
 
 require (
 	github.com/DATA-DOG/go-sqlmock v1.5.0
@@ -9,6 +9,7 @@ require (
 	github.com/labstack/gommon v0.3.1
 	github.com/stretchr/testify v1.7.1
 	gorm.io/driver/mysql v1.3.3
+	gorm.io/driver/sqlserver v1.3.2
 	gorm.io/gorm v1.23.4
 )
 
@@ -32,5 +33,4 @@ require (
 	golang.org/x/text v0.3.7 // indirect
 	golang.org/x/time v0.0.0-20201208040808-7e3f01d25324 // indirect
 	gopkg.in/yaml.v3 v3.0.0-20210107192922-496545a6307b // indirect
-	gorm.io/driver/sqlserver v1.3.2 // indirect
 )
